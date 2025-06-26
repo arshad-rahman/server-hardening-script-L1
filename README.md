@@ -1,6 +1,5 @@
-
 <p align="center">
-  <a href="https://github.com/arshad-rahman/server-hardening-scripts">
+  <a href="https://github.com/arshad-rahman/server-hardening-script-L1.git">
     <img src="https://img.shields.io/badge/Server%20Hardening-Scripts-blue.svg?style=for-the-badge" alt="Server Hardening">
   </a>
 </p>
@@ -11,14 +10,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/arshad-rahman/server-hardening-scripts/actions">
-    <img src="https://img.shields.io/github/actions/workflow/status/arshad-rahman/server-hardening-scripts/build.yml?branch=main&style=flat-square" alt="CI Status">
+  <a href="https://github.com/arshad-rahman/server-hardening-script-L1.git/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/arshad-rahman/server-hardening-script-L1/build.yml?branch=main&style=flat-square" alt="CI Status">
   </a>
-  <a href="https://github.com/arshad-rahman/server-hardening-scripts/issues">
-    <img src="https://img.shields.io/github/issues/arshad-rahman/server-hardening-scripts.svg?style=flat-square" alt="Open Issues">
+  <a href="https://github.com/arshad-rahman/server-hardening-script-L1/issues">
+    <img src="https://img.shields.io/github/issues/arshad-rahman/server-hardening-script-L1.svg?style=flat-square" alt="Open Issues">
   </a>
-  <a href="https://github.com/arshad-rahman/server-hardening-scripts/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/arshad-rahman/server-hardening-scripts.svg?style=flat-square" alt="License">
+  <a href="https://github.com/arshad-rahman/server-hardening-script-L1/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/arshad-rahman/server-hardening-script-L1.svg?style=flat-square" alt="License">
   </a>
 </p>
 
@@ -49,7 +48,7 @@
 ## 🔌 Prerequisites
 
 - **Ubuntu** 18.04 or later  
-- A non-root user with <code>sudo</code> privileges  
+- A non-root user with `sudo` privileges  
 - Internet access for package installation  
 
 ---
@@ -58,8 +57,8 @@
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/arshad-rahman/server-hardening-scripts.git
-cd server-hardening-scripts
+git clone https://github.com/arshad-rahman/server-hardening-script-L1.git
+cd server-hardening-script-L1
 
 # 2. Make it executable
 chmod +x harden.sh
@@ -134,15 +133,12 @@ Feel free to **customize**—add more UFW rules, tweak Fail2Ban settings, or int
    ```
 5. Open a Pull Request
 
-
+---
 
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
 
-
-
 <p align="center">
   Built with ❤️ by <a href="https://github.com/arshad-rahman">arshad</a>
 </p>
-
